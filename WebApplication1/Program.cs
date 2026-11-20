@@ -16,7 +16,7 @@ namespace WebApplication1
             {
                 app.MapOpenApi();
             }
-
+            //test
             app.UseHttpsRedirection();
             app.UseAuthorization();
 
