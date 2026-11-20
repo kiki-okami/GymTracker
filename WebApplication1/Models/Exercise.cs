@@ -5,7 +5,7 @@
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
 
-        public int MuscleGroupId { get; set; }          // klucz obcy
-        public MuscleGroup MuscleGroup { get; set; } = null!;  // nawigacja
+        public int MusclesGroupId { get; set; }          // klucz obcy
+        public MusclesGroup MuscleGroup { get; set; } = null!;  // nawigacja
     }
 }
