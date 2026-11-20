@@ -8,7 +8,7 @@ namespace WebApplication1.Data
     {
         public GymDbContext(DbContextOptions<GymDbContext> options) : base(options) { }
 
-        public DbSet<MuscleGroup> MuscleGroups => Set<MuscleGroup>();
+        public DbSet<MusclesGroup> MusclesGroups => Set<MusclesGroup>();
         public DbSet<Exercise> Exercises => Set<Exercise>();
     }
 }
